@@ -1,0 +1,1065 @@
+#google_translate_element{
+  display: inline-flex;
+  /*float*/: right;
+}
+.goog-logo-link {
+   display:none !important;
+}
+
+.goog-te-gadget {
+   color: transparent !important;
+}
+
+.goog-te-gadget .goog-te-combo {
+   color: blue !important;
+}
+.goog-te-banner-frame.skiptranslate {
+    display: none !important;
+    } 
+    body {
+    top: 0px !important; 
+    /*background-color: #0e1c61;*/
+    }
+    .btn-circle.btn-xl {
+    width: 70px;
+    height: 70px;
+    padding: 10px 16px;
+    border-radius: 35px;
+    font-size: 24px;
+    line-height: 1.33;
+}
+    .btn-circle {
+    width: 30px;
+    height: 30px;
+    padding: 6px 0px;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 12px;
+    line-height: 1.42857;
+}
+.txt_trnslt_size{
+/*  position: fixed;
+  top: 0;
+  width: 100%*/
+  /*position:relative;
+  z-index: 9999999;*/
+  padding-left: 83%;
+  /*position:absolute; left:80px; top:20px;*/
+}
+
+.sidenavv {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 99991;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenavv a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenavv a:hover {
+  color: #f1f1f1;
+}
+
+.sidenavv .closebtnn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenavv {padding-top: 15px;}
+  .sidenavv a {font-size: 18px;}
+}
+
+.head-bar-title{
+    color: #fff;
+    text-align: center;
+    border-bottom: 2px solid #ff6a00;
+}
+.head-bar-content{
+    color: #fff;
+    font-size: 16px;
+}
+
+
+
+#container {
+  margin: 0 auto;
+  max-width: 890px;
+}
+
+p { text-align: center; }
+ .toggle, [id^=drop] {
+ display: none;
+}
+
+.footer-new {
+  margin: 0;
+  padding: 0;
+  background-color: transparent;
+}
+
+#logo {
+  display: block;
+  padding: 0 30px;
+  float: left;
+  font-size: 20px;
+  line-height: 60px;
+}
+
+.footer-new:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.footer-new ul {
+  /*float: right;*/
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  position: relative;
+
+}
+
+.footer-new ul li {
+  margin: 0px;
+  display: inline-block;
+  float: left;
+  background-color: transparent;
+}
+
+.footer-new a {
+  display: block;
+  padding: 0 15px;
+  color: #FFF;
+  font-size: 12px;
+  /*line-height: 50px;*/
+  text-decoration: none;
+}
+
+.footer-new ul li ul li:hover { background: #000000; }
+
+.footer-new a:hover { background-color: #000000; }
+
+.footer-new ul ul {
+  display: none;
+  position: absolute;
+  top: 60px;
+}
+
+.footer-new ul li:hover > ul { display: inherit; }
+
+.footer-new ul ul li {
+  width: 170px;
+  float: none;
+  display: list-item;
+  position: relative;
+}
+
+.footer-new ul ul ul li {
+  position: relative;
+  top: -60px;
+  left: 170px;
+}
+
+li > a:after { content: ' +'; }
+
+li > a:only-child:after { content: ''; }
+
+
+/* Media Queries
+--------------------------------------------- */
+
+@media all and (max-width : 768px) {
+
+#logo {
+  display: block;
+  padding: 0;
+  width: 100%;
+  text-align: center;
+  float: none;
+}
+
+.footer-new { margin: 0; }
+
+.toggle + a,
+ .footer { display: block; }
+
+.toggle {
+  display: block;
+  background-color: transparent;
+  padding: 0 20px;
+  color: #FFF;
+  font-size: 15px;
+  line-height: 25px;
+  text-decoration: none;
+  border: none;
+}
+
+.toggle:hover { background-color: transparent; }
+
+[id^=drop]:checked + ul { display: block; }
+
+.footer-new ul li {
+  display: block;
+  width: 100%;
+  cursor: pointer;
+}
+
+.footer-new ul ul .toggle,
+ .footer-new ul ul a { padding: 0 40px; }
+
+.footer-new ul ul ul a { padding: 0 80px; }
+
+.footer-new a:hover,
+ .footer-new ul ul ul a { background-color: #000000; }
+
+.footer-new ul li ul li .toggle,
+ .footer-new ul ul a { background-color: transparent; }
+
+.footer-new ul ul {
+  float: none;
+  position: static;
+  color: #ffffff;
+}
+
+.footer-new ul ul li:hover > ul,
+.footer-new ul li:hover > ul { display: none; }
+
+.footer-new ul ul li {
+  display: block;
+  width: 100%;
+}
+
+.footer-new ul ul ul li { position: static;
+
+}
+}
+
+@media all and (max-width : 330px) {
+
+.footer-new ul li {
+  display: block;
+  width: 94%;
+}
+
+}
+
+
+/*menu new*/
+
+
+.menu-new p { text-align: center; }
+.menu-new .toggle, [id^=drop] {
+ display: none;
+}
+
+.menu-new {
+  margin: 0;
+  padding: 0;
+  background-color: #d6e1f2;
+ /* background-color: rgb(14, 50, 84);*/
+ border-bottom: 2px solid rgb(14, 50, 84);
+}
+
+#logo {
+  display: block;
+  padding: 0 30px;
+  float: left;
+  font-size: 20px;
+  line-height: 60px;
+}
+
+.menu-new:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.menu-new ul {
+  /*float: right;*/
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  position: relative;
+
+}
+
+.menu-new ul li {
+  margin: 0px;
+  display: inline-block;
+  float: left;
+  /*background-color: #314f60;*/
+  /*background-color: rgb(14, 50, 84);*/
+}
+
+.menu-new a {
+  display: block;
+  padding: 0 5px;
+  color: rgb(14, 50, 84);
+  font-size: 12px;
+  line-height: 35px;
+  text-decoration: none;
+  font-weight: bold;
+}
+.menu .active{ background-color: rgb(14, 50, 84); color: #fff; }
+
+.menu .active a{ color: #fff; }
+
+.menu-new ul li ul li { background: #fff; z-index: 9;}
+.menu-new ul li ul li:hover { background: rgb(202, 213, 224);color: #fff; }
+
+
+.menu-new a:hover{ background-color: rgb(14, 50, 84); color: #fff; }
+
+.menu-new ul ul {
+  display: none;
+  position: absolute;
+  top: 35px;
+}
+
+.menu-new ul li:hover > ul { display: inherit; }
+
+.menu-new ul ul li {
+  width: 360px;
+  float: none;
+  display: list-item;
+  position: relative;
+  font-size: 12px;
+}
+/*.menu-new ul li ul li ul {
+  z-index: 99999px;
+}*/
+.menu-new ul ul ul li {
+  position: relative;
+  top: -48px;
+  left: 360px;
+}
+
+li > a:after { 
+    font-family: FontAwesome;
+    content: '\f0d7';
+    display: inline-block;
+    padding-left: 4px;
+    vertical-align: middle; 
+}
+
+li > a:only-child:after { content: ''; }
+
+
+/* Media Queries
+--------------------------------------------- */
+
+@media all and (max-width : 768px) {
+
+.menu-new #logo {
+  display: block;
+  padding: 0;
+  width: 100%;
+  text-align: center;
+  float: none;
+}
+
+.menu-new { margin: 0; }
+
+.menu-new .toggle + a,
+.menu-new .menu { display: none; }
+
+.menu-new .toggle {
+  display: block;
+  background-color: rgb(14, 50, 84);
+  /*border-bottom: 2px solid rgb(14, 50, 84);*/
+  padding: 0 20px;
+  color: #FFF;
+  font-size: 20px;
+  line-height: 60px;
+  text-decoration: none;
+  border: none;
+}
+
+.menu-new .toggle:hover { background-color: #000000; }
+
+.menu-new [id^=drop]:checked + ul { display: block; }
+
+.menu-new ul li {
+  display: block;
+  width: 100%;
+}
+
+.menu-new ul ul .toggle,
+ .menu-new ul ul a { padding: 0 40px; }
+
+.menu-new ul ul ul a { padding: 0 80px; }
+
+.menu-new a:hover,
+ .menu-new ul ul ul a { background-color: rgb(14, 50, 84); color: #fff; }
+
+
+ .menu-new ul ul a { background-color: #fff; }
+.menu-new ul li ul li .toggle{
+ background-color: rgb(14, 50, 84);
+}
+.menu-new ul ul {
+  float: none;
+  position: static;
+  color: #ffffff;
+}
+
+.menu-new ul ul li:hover > ul,
+.menu-new ul li:hover > ul { display: inherit; }
+
+.menu-new ul ul li {
+  display: block;
+  width: 100%;
+}
+
+.menu-new ul ul ul li { position: static;
+
+}
+}
+
+@media all and (max-width : 330px) {
+
+.menu-new ul li {
+  display: block;
+  width: 94%;
+}
+
+}
+.content-box{
+      font-size: 15px; 
+      padding: 5px;
+      font-weight: bold;
+      background: -webkit-linear-gradient(left, #2a9c62, #7990d4);
+      color: #fff;
+    }
+    .inner_heading {
+     /*background-color: #ffc800; */
+    background-color: #296471;
+    position: relative;
+    display: block;
+    height: 45px;
+    width: 585px;
+    /*width: 418px;*/
+    text-align: center;
+    margin: 0 auto 22px;
+  }
+  .home_inner_heading {
+    right: 6px;
+    margin: 15px auto -13px;
+    z-index: 9;
+}
+.inner_heading p {
+  /*color: #000;*/ 
+  color:#fff; 
+  font-weight: 600; 
+  text-transform: capitalize; 
+  font-size: 14px; 
+  text-align: center; 
+  margin-bottom: 0; 
+  line-height: 40px;
+  cursor: default;
+}
+.inner_heading::before {
+  content: ''; 
+  height: 45px; 
+  width: 28px; 
+  /*background-color: #ffc800;*/ 
+  background-color:#296471; 
+  position: absolute; 
+  top: 0; 
+  left: 0px; 
+  transform: skewX(-45deg); 
+  transform-origin: top; 
+  -webkit-transform: skewX(-29deg); 
+  -webkit-transform-origin: 0 0;
+cursor: default;
+}
+.inner_heading::after {
+  content: ''; 
+  height: 45px;
+   width: 29px;
+    /*background-color: #ffc800;*/
+     background-color:#296471; 
+     position: absolute; 
+     top: 0; 
+     right: -28px; 
+     left: auto; 
+     transform: skewX(-45deg); 
+     transform-origin: top; 
+     -webkit-transform: skewX(-29deg); 
+     -webkit-transform-origin: 0 0;
+     cursor: default;
+   }
+    .home_inner_heading p{
+        font-size: 25px;
+        padding-top: 4px;
+   }
+
+   @media screen and (max-width: 768px) {
+      .inner_heading {
+          width: 60%;
+        
+        }
+      .home_inner_heading {
+        right: 6px;
+        margin: -23px auto -13px;
+        z-index: 9;
+    }
+}
+
+.note-icon {
+    background: #46988a;
+}
+.note-box {
+    color: #144261;
+    background: -webkit-linear-gradient(left, #d6dec9, #3ad3ff);
+    /*background: #d5e9f6;*/
+}
+.note-box, .warning-box, .tip-box {
+    padding: 8px 8px 3px 26px;
+}
+.info-tab{
+    float: left;
+    margin-left: -25px;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    position: relative;
+    top: 50px;
+    padding-left: 5px;
+  }
+
+.note-icon i::before {
+    background: #46988a;
+}
+
+i {
+    font-style: italic;
+}
+
+.info-tab i::before {
+    width: 20px;
+    height: 20px;
+    box-shadow: inset 12px 0 13px rgba(0,0,0,0.5);
+}
+.info-tab i::before, .info-tab i::after {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    bottom: -15px;
+    transform: rotateX(60deg);
+}
+.info-tab i::after {
+    width: 0;
+    height: 0;
+    border: 12px solid transparent;
+    border-bottom-color: #fff;
+    border-left-color: #fff;
+    bottom: -18px;
+}
+.info-tab i::before, .info-tab i::after {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    /*bottom: -15px;*/
+    transform: rotateX(60deg);
+}
+.fa-book{
+  text-align: center;
+  padding-top: 5px;
+  /*color: white;*/
+}
+.middlefull {
+    width: 90%;
+    height: auto;
+    float: left;
+    margin-top: 20px;
+    margin-left: 40px;
+    padding: 10px;
+    min-height: 350px;
+    overflow: hidden;
+    background: rgba(255, 255, 255, 0.5);
+    }
+ .middlefull p {
+    font-size: 18px;
+    color: #333;
+    line-height: 28px;
+    margin-top: 10px;
+    font-family: 'open_sansregular';
+    text-align: justify;
+}
+.middlefull h1 {
+    font-size: 30px;
+    font-family: 'kaushan_scriptregular';
+    color: #17375e;
+    float: left;
+    margin-bottom: 20px;
+    text-shadow: 2px 0px 4px #3B7280;
+}
+.clear {
+    clear: both;
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+.middlefull h4 {
+    background: url(../../image/icon.gif) left 8px no-repeat;
+    font-family: 'sans-serif';
+    font-size: 14px;
+    line-height: 25px;
+    color: #000000;
+    font-weight: normal;
+    margin-top: 10px;
+    margin-left: 150px;
+    padding-left: 20px;
+    padding-right: 10px;
+}
+.news_events_cls ul {
+    list-style: none;
+  }
+  .news_events_cls li:before {
+    content: "\f138"; /* FontAwesome Unicode */
+    font-family: FontAwesome;
+    display: inline-block;
+    margin-left: -1.3em; /* same as padding-left set on li */
+    width: 1.3em; /* same as padding-left set on li */
+}
+.new_table table { 
+  width: 100%; 
+  border-collapse: collapse; 
+  margin:10px auto;
+  }
+
+/* Zebra striping */
+.new_table tr:nth-of-type(odd) { 
+  background: #eee; 
+  }
+
+.new_table th { 
+  /*background: #19B986; */
+ background: -webkit-linear-gradient(left, #3931af, #00c6ff);
+  color: white; 
+  font-weight: bold; 
+  }
+
+.new_table td,.new_table th { 
+  padding: 10px; 
+  border: 1px solid #ccc; 
+  text-align: center; 
+  font-size: 18px;
+  }
+
+/* 
+Max width before this PARTICULAR table gets nasty
+This query will take effect for any screen smaller than 760px
+and also iPads specifically.
+*/
+@media 
+only screen and (max-width: 760px),
+(min-device-width: 768px) and (max-device-width: 1024px)  {
+
+ .new_table table { 
+      width: 100%; 
+  }
+
+  /* Force table to not be like tables anymore */
+ .new_table table,.new_table thead,.new_table tbody,.new_table th,.new_table td,.new_table tr { 
+    display: block; 
+  }
+  
+  /* Hide table headers (but not display: none;, for accessibility) */
+ .new_table thead tr { 
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+  }
+  
+  .new_table tr { border: 1px solid #ccc; }
+  
+  .new_table td { 
+    /* Behave  like a "row" */
+    border: none;
+    border-bottom: 1px solid #eee; 
+    position: relative;
+    padding-left: 50%; 
+  }
+
+ .new_table td:before { 
+    /* Now like a table header */
+    position: absolute;
+    /* Top/left values mimic padding */
+    top: 6px;
+    left: 6px;
+    width: 45%; 
+    padding-right: 10px; 
+    white-space: nowrap;
+    /* Label the data */
+    content: attr(data-column);
+
+    color: #000;
+    font-weight: bold;
+  }
+
+}
+.new_table table { 
+  width: 100%; 
+  border-collapse: collapse; 
+  margin:10px auto;
+  }
+
+/* Zebra striping */
+.new_table tr:nth-of-type(odd) { 
+  background: #eee; 
+  }
+
+.new_table th { 
+ /* background: #19B986; */
+  background: -webkit-linear-gradient(left, #3931af, #00c6ff);
+  color: white; 
+  font-weight: bold; 
+  }
+
+.new_table td,.new_table th { 
+  padding: 10px; 
+  border: 1px solid #ccc; 
+  text-align: center; 
+  font-size: 18px;
+  }
+
+/* 
+Max width before this PARTICULAR table gets nasty
+This query will take effect for any screen smaller than 760px
+and also iPads specifically.
+*/
+@media 
+only screen and (max-width: 760px),
+(min-device-width: 768px) and (max-device-width: 1024px)  {
+
+ .new_table table { 
+      width: 100%; 
+  }
+
+  /* Force table to not be like tables anymore */
+ .new_table table,.new_table thead,.new_table tbody,.new_table th,.new_table td,.new_table tr { 
+    display: block; 
+  }
+  
+  /* Hide table headers (but not display: none;, for accessibility) */
+ .new_table thead tr { 
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+  }
+  
+  .new_table tr { border: 1px solid #ccc; }
+  
+  .new_table td { 
+    /* Behave  like a "row" */
+    border: none;
+    border-bottom: 1px solid #eee; 
+    position: relative;
+    padding-left: 50%; 
+  }
+
+ .new_table td:before { 
+    /* Now like a table header */
+    position: absolute;
+    /* Top/left values mimic padding */
+    top: 6px;
+    left: 6px;
+    width: 45%; 
+    padding-right: 10px; 
+    white-space: nowrap;
+    /* Label the data */
+    content: attr(data-column);
+
+    color: #000;
+    font-weight: bold;
+  }
+
+}
+
+/*susmita 26-11-2019*/
+
+.img-header-logo {
+    height: 90px !important;
+    
+}
+
+
+/*sajal 22-1-2022*/
+
+
+.govtTxt{
+  color: white;
+  font-size: 24px;
+}
+@media (max-width: 1024px){
+.menu-new .toggle {
+    display: block;
+    background-color: rgb(14, 50, 84);
+    /* border-bottom: 2px solid rgb(14, 50, 84); */
+    padding: 0 20px;
+    color: #FFF;
+    font-size: 20px;
+    line-height: 60px;
+    text-decoration: none;
+    border: none;
+}
+}
+
+
+nav { 
+	margin:0;
+	padding: 0;
+	background-color: #d6e1f2;
+}
+
+#logo {
+	display: block;
+	padding: 0 30px;
+	float: left;
+	font-size:20px;
+	line-height: 60px;
+}
+
+/* Since we'll have the "ul li" "float:left"
+ * we need to add a clear after the container. */
+
+nav:after {
+	content:"";
+	display:table;
+	clear:both;
+}
+
+/* Removing padding, margin and "list-style" from the "ul",
+ * and adding "position:reltive" */
+nav ul {
+	float: left;
+	padding:0;
+	margin:0;
+	list-style: none;
+	position: relative;
+	}
+	
+/* Positioning the navigation items inline */
+nav ul li {
+	margin: 0px;
+	display:inline-block;
+	float: left;
+	background-color: #d6e1f2;
+	}
+
+/* Styling the links */
+nav a {
+	display: block;
+    padding: 8px 5px;
+    color: rgb(14, 50, 84);
+    font-size: 13px;
+    text-decoration: none;
+    font-weight: 600;
+    margin-left: 5px;
+}
+
+
+nav ul li ul li:hover { 
+  background: rgb(200, 217, 233);;
+  color: white; 
+
+
+}
+
+/* Background color change on Hover */
+nav a:hover { 
+  background-color: rgb(14, 50, 84);
+  color:white;
+}
+
+/* Hide Dropdowns by Default
+ * and giving it a position of absolute */
+nav ul ul {
+	display: none;
+	position: absolute; 
+	/* has to be the same number as the "line-height" of "nav a" */
+	top: 50px; 
+}
+	
+/* Display Dropdowns on Hover */
+nav ul li:hover > ul {
+	display:inherit;
+}
+	
+/* Fisrt Tier Dropdown */
+nav ul ul li {
+	width:250px;
+	float:none;
+	display:list-item;
+	position: relative;
+}
+
+/* Second, Third and more Tiers	
+ * We move the 2nd and 3rd etc tier dropdowns to the left
+ * by the amount of the width of the first tier.
+*/
+nav ul ul ul li {
+	position: relative;
+	top:-50px;
+	/* has to be the same number as the "width" of "nav ul ul li" */ 
+	left:252px; 
+}
+
+	
+/* Change ' +' in order to change the Dropdown symbol */
+li > a:after {font-family: FontAwesome;
+content: '\f0d7';
+display: inline-block;
+padding-left: 4px;
+vertical-align: middle;}
+li > a:only-child:after { content: ''; }
+
+
+/* Media Queries
+--------------------------------------------- */
+
+@media all and (max-width : 1024px) {
+
+	
+
+	nav {
+		margin: 0;
+	}
+  
+  li > a:after {font-family: FontAwesome;
+    content: '\f0d7';
+    display: inline-block;
+    padding-left: 4px;
+    vertical-align: middle;}
+    li > a:only-child:after { content: ''; }
+	/* Hide the navigation menu by default */
+	/* Also hide the  */
+	.toggle + a,
+	.menu {
+		display: none;
+	}
+
+	/* Stylinf the toggle lable */
+	.toggle {
+		display: block;
+		background-color: rgb(14, 50, 84);;
+		padding:14px 20px;	
+		color:#FFF;
+		font-size:17px;
+		text-decoration:none;
+		border:none;
+	}
+
+	.toggle:hover {
+		background-color: #3b8036;
+	}
+
+	/* Display Dropdown when clicked on Parent Lable */
+	[id^=drop]:checked + ul {
+		display: block;
+	}
+
+	/* Change menu item's width to 100% */
+	nav ul li {
+		display: block;
+		width: 100%;
+		}
+
+	nav ul ul .toggle,
+	nav ul ul a {
+		padding: 0 40px;
+	}
+
+	nav ul ul ul a {
+		padding: 0 80px;
+	}
+
+	nav a:hover,
+ 	nav ul ul ul a {
+		background-color: #6c7bc8;
+	}
+  
+	nav ul li ul li .toggle,
+	nav ul ul a,
+  nav ul ul ul a{
+		padding:14px 20px;	
+		color:#FFF;
+    font-size:17px;
+    background-color: #5d6486; 
+	}
+  
+  
+	nav ul li ul li .toggle,
+	nav ul ul a {
+		background-color: #6c7bc8; 
+	}
+
+	/* Hide Dropdowns by Default */
+	nav ul ul {
+		float: none;
+		position:static;
+		color: #ffffff;
+		/* has to be the same number as the "line-height" of "nav a" */
+	}
+		
+	/* Hide menus on hover */
+	nav ul ul li:hover > ul,
+	nav ul li:hover > ul {
+		display: none;
+	}
+		
+	/* Fisrt Tier Dropdown */
+	nav ul ul li {
+		display: block;
+		width: 100%;
+	}
+
+	nav ul ul ul li {
+		position: static;
+		/* has to be the same number as the "width" of "nav ul ul li" */ 
+
+  }
+  
+  nav a {
+    display: block;
+    padding: 8px 20px 5px;
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+    text-decoration: none;
+    font-weight: 600;
+    background-color: #0e3254;
+}
+
+
+}
+
+@media all and (max-width : 330px) {
+
+	nav ul li {
+		display:block;
+		width: 94%;
+	}
+
+}
